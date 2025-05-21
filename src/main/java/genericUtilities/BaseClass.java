@@ -51,7 +51,7 @@ public class BaseClass {
 	{
 		String URL = fUtil.readDataFromPropertyFile("url");
 		
-		driver = new EdgeDriver();	//simple step for browser execution
+		driver = new FirefoxDriver();	//simple step for browser execution
 		
 		//For  cross browser execution - "Run Time Polymorphism"
 			//(we make it comment because for listeners we have to use @BeforeClass and this type
